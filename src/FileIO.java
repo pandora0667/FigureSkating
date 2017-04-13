@@ -43,20 +43,6 @@ public class FileIO {
         }
     }
 
-//
-//    public void savePlayerRank() {
-//        try {
-//            File file = new File(path + "Rank.txt");
-//            FileWriter save = new FileWriter(file, true);
-//            save.write("Ranking");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-//
-//    public void readPlayerRank() {
-//
-//    }
 
     public String[] readPlayerInformation() {
         if (!isEmpty()) {

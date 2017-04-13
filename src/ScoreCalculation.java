@@ -5,7 +5,6 @@ import java.util.Arrays;
  */
 public class ScoreCalculation {
     private double avgScore;
-    private String sex;
 
     public ScoreCalculation() {
     }

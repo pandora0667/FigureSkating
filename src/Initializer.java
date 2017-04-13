@@ -11,7 +11,7 @@ public class Initializer {
     private LinkedList<PlayerInformation> playerInformation;
 
     public Initializer() {
-        this.fileIO = new FileIO("/Users/seongwonlee/Workspace/Project /FigureSkating/Data/");
+        this.fileIO = new FileIO("/Users/seongwonlee/Workspace/Project/FigureSkating/Data/");
         this.scoreCalculation = new ScoreCalculation();
         this.playerInformation = new LinkedList<>();
     }
@@ -72,6 +72,7 @@ public class Initializer {
 
     public void setFileSave(String name) {
         String information = null;
+
         for (int i=0; i<playerInformation.size(); i++) {
             if (playerInformation.get(i).getName().equals(name)) {
                 information = playerInformation.get(i).getInformation();
